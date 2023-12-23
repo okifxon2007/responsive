@@ -194,10 +194,6 @@ font-size: 15px;
         right: 900px;
         display: block;
     }
-    .df img{
-
-
-    }
     .rr img{
         width: 12px;
     }
@@ -224,5 +220,8 @@ font-size: 15px;
 
 #input{
 
+    display: none;
+}
+.input__hamburger{
     display: none;
 }
