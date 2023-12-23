@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conta{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    padding: 30px 10px 0px 0px;
+}
+.logo{
+    display: flex;
+}
+nav ul{
+    margin-top: 18px;
+    list-style-type: none;
+    display: flex;
+    margin-left: 143px;
+
+}
+.head{
+    display: flex;
+}
+nav li{
+    color: var(--, #282B22);
+
+/* Пункти меню_16 px (medium) */
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 16px */
+    margin-left: 40px;
+}
+.phone{
+    display: flex;
+}
+.df{
+    margin-left: 146px;
+    display: flex;
+}
+.display {
+    display: flex;
+}
+nav{
+    display: flex;
+}
+.phone img{
+    width: 30px;
+}
+.phone{
+    margin-left: 63px;
+}
+.phone h2{
+    color: var(--, #3D4A39);
+
+/* Text_20px (semibold) */
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 20px */
+text-transform: uppercase;
+    margin-top: 13px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+main{
+    background-image: url(img/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);
+    width: 1400px;
+height: 687px;
+flex-shrink: 0;
+margin-top: 20px;
+}
+main h1{
+   
+    color: #fff;
+text-align: center;
+
+/* Заголовок_H1 */
+font-family: Lato;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 67.2px */
+text-transform: uppercase;
+padding-top: 146px;
+}
+main p{
+    color: #fff;
+text-align: center;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+/* text_18px (medium) */
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 27px */
+width: 537px;
+opacity: 0.7;
+}
+main button{
+    color: #FFF;
+width: 260px;
+padding: 22px 56px;
+align-items: flex-start;
+gap: 10px;
+background:#AE7B3C;
+box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+
+/* text_botton */
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 16px */
+border: 1px solid transparent;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+}
+@media screen and (max-width:1200px) {
+    .conta{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+    }
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+    }
+    main{
+        width: 1000px;
+        background-position: center;
+    }
+    nav li{
+        font-size: 12px;
+        margin-left: 14px;
+    }
+    .phone h2{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .logo2{
+        width:100px ;
+    }
+    
+}
+
+.input__hamburger:checked ~ nav li{
+display: block;
+transition: 1s all;
+font-size: 15px;
+}
+
+
+@media screen and (max-width:640px) {
+    .phone{
+        gap: 20px;
+    }
+    div.phone{
+        margin-left: 0;
+    }
+    .conta{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 550px;
+    }
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 640px;
+    }
+    main{
+        width: 580px;
+        background-position: center;
+    }
+    nav li{
+        display: none;
+        margin-top: 20px;
+        font-size: 8px;
+        margin-left: 14px;
+    }
+    nav ul{
+        right: 900px;
+        display: block;
+    }
+    .df img{
+
+
+    }
+    .rr img{
+        width: 12px;
+    }
+    
+    .phone h2{
+        
+        font-size: 8px;
+        margin-top: 12px;
+    }
+    .phone img{
+        margin-left: 0;
+        width: 14px;
+    }
+    .logo2{
+        width:70px;
+    }
+    .df{
+        display: flex;
+    }
+
+}
+
+
+
+#input{
+
+    display: none;
+}
