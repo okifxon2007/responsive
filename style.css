@@ -213,6 +213,7 @@ font-size: 15px;
     .df{
         display: flex;
     }
+    
 
 }
 
@@ -222,6 +223,6 @@ font-size: 15px;
 
     display: none;
 }
-.input__hamburger{
+.label{
     display: none;
 }
