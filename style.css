@@ -226,3 +226,258 @@ font-size: 15px;
 .label{
     display: none;
 }
+
+
+
+
+
+.mainport h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+
+
+    color: #282B22;
+text-align: center;
+
+/* заголовок_H2 */
+font-family: Raleway;
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 57.5px */
+text-transform: uppercase;
+}
+.mainport-folio{
+    margin-left: 55px;
+    margin-top: 80px;
+    width: 400px;
+    border: 1px solid black;
+    height: 480px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.mainport-folio p{
+    color: #282B22;
+
+/* Заголовок_H5 */
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 24px */
+}
+
+.mainport-folio h2{
+    margin-top: 60px;
+    color: #3D4A39;
+
+/* Заголовок_H5 */
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 24px */
+}
+.mainport-folio img{
+    width: 332px;
+    height: 320px;
+    margin-top: 30px;
+}
+.mainport-df{
+    display: flex;
+}
+
+.main-green{
+    width: 1400px;
+    height: 688px;
+    background: #3D4A39;
+    margin-top: 140px;
+}
+.main-green h1{
+    padding-top: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+    color: #FFF;
+
+/* заголовок_H2 */
+font-family: Raleway;
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 57.5px */
+text-transform: uppercase;
+}
+
+.green-port{
+    margin-top: 70px;
+    margin-left: 250px;
+}
+.green-port p{
+    color: #FFF;
+
+/* Заголовок_H5 (medium) */
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 31.2px */
+opacity: 0.5;
+}
+.main-green-df{
+    display: flex;
+}
+.ringle{
+    display: flex;
+}
+.main-tor-bs h1{
+    color: #282B22;
+text-align: center;
+
+/* Заголовок_H3 */
+font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 46.8px */
+
+width: 814px;
+}
+.main-tor-bs{
+    display: flex;
+    margin-top: 140px;
+}
+.main-tor-bs-img1{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.tr{
+    margin-left: 143px;
+}
+.tr p{
+    width: 370px;
+    opacity: 0.8;
+    color:#282B22;
+
+/* text_18px (medium) */
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 27px */
+}
+.top-tr{
+    margin-top: 30px;
+    margin-left: 80px;
+    display: flex;
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+    
+        .conta{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1000px;
+    }
+    .main-green{
+        height: 800px;
+        width: 1000px;
+       display: block;
+    }
+    .main-green-df{
+        display: block;
+    }
+    .lte{
+        display: flex;
+    }
+    .ringle{
+        display: block;
+    }
+    .lorem{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+    }
+    .mainport-folio img{
+        width: 250px;
+        height: 250px;
+    }
+    .id {
+        display: none;
+    }
+    .main-tor-bs-img1{
+        display: none;
+    }
+    .tr{
+        transform: translateX(-180px);
+    }
+}
+
+
+
+@media screen and (max-width:640px) {
+    
+    .conta{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+}
+.main-green{
+    height: 800px;
+    width: 1000px;
+   display: block;
+}
+.main-green-df{
+    display: block;
+}
+.lte{
+    display: flex;
+}
+.ringle{
+    display: block;
+}
+.lorem{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+.mainport-folio img{
+    width: 250px;
+    height: 250px;
+}
+.id {
+    display: none;
+}
+.main-tor-bs-img1{
+    display: none;
+}
+.tr{
+    transform: translateX(-180px);
+}
+
+.logo{
+    margin-left: 250px;
+
+}
+main{
+    background-image: url(img/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);
+    width: 800px;
+height: 687px;
+flex-shrink: 0;
+margin-top: 20px;
+margin-left: 50px;
+}
+.mainport h1{
+    margin-left: 450px;
+}
+}
